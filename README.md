@@ -16,11 +16,9 @@ I currently work in Development Relations at a leading university in Argentina, 
 
 ## Featured Projects
 
-*Building out this section — first case study coming soon: a scholarship fundraising dashboard rebuilt with public data, covering the full pipeline from raw data to KPI design.*
-
 | Status | Project | Description | Tools |
 |---|---|---|---|
-| 🔜 | Scholarship Fundraising Dashboard | End-to-end BI project: KPI design, data modeling, and DAX for tracking fundraising against targets | Power BI, DAX |
+| ✅ | [Scholarship Fundraising Dashboard](Projects/scholarship-fundraising-dashboard) | End-to-end BI project: KPI design, data modeling, and DAX for tracking fundraising against USD-denominated targets, combining real public exchange rate data with synthetic donation/scholarship data | Python, SQL, Power BI, DAX |
 | 🔜 | TBD | TBD | SQL, Python |
 
 ## Let's Connect
