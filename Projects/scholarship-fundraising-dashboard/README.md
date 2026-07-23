@@ -56,7 +56,7 @@ scholarship-fundraising-dashboard/
 
 ## Dashboard Preview
 
-![Dashboard preview](powerbi/dashboard-screenshot.png)
+![Dashboard preview](powerbi/Dashboard-screenshot.png)
 
 ## Key Insights
 
