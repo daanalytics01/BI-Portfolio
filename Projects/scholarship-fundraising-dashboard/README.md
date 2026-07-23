@@ -1,130 +1,72 @@
-# \# Scholarship Fundraising Dashboard
+# Scholarship Fundraising Dashboard
 
-# 
+End-to-end BI project simulating a university scholarship fundraising program funded by corporate donations, inspired by real-world fundraising operations in higher education.
 
-# End-to-end BI project simulating a university scholarship fundraising program funded by corporate donations, inspired by real-world fundraising operations in higher education.
+> **Note on data:** the donor and scholarship data in this project is **synthetic** (no real institution's data is used). The exchange rate series is **real public data** from Argentina's Central Bank (BCRA), sourced through the official [datos.gob.ar](https://datos.gob.ar) API.
 
-# 
+## Business Problem
 
-# > \*\*Note on data:\*\* the donor and scholarship data in this project is \*\*synthetic\*\* (no real institution's data is used). The exchange rate series is \*\*real public data\*\* from Argentina's Central Bank (BCRA), sourced through the official \[datos.gob.ar](https://datos.gob.ar) API.
+Universities running donor-funded scholarship programs often price scholarships in USD (to protect against local currency inflation) while receiving and reporting in local currency. This creates two recurring challenges:
 
-# 
+1. **Tracking fundraising performance against a USD-denominated target**, when donations arrive at different stages (*committed → recognized → accrued*) and only *recognized + accrued* should count toward the goal.
+2. **Understanding the real purchasing power of donations over time**, since local currency depreciation can erode the value of pledges made months earlier.
 
-# \## Business Problem
+This project builds a dashboard that answers both.
 
-# 
+## Data Sources
 
-# Universities running donor-funded scholarship programs often price scholarships in USD (to protect against local currency inflation) while receiving and reporting in local currency. This creates two recurring challenges:
+| Source | Type | Description |
+|---|---|---|
+| `donantes.csv`, `donaciones.csv`, `becas.csv` | Synthetic | Generated with realistic business logic (see `scripts/02_generate_scholarship_data.py`) |
+| `tipo_cambio_oficial.csv` | Real, public | Official USD/ARS exchange rate, BCRA via datos.gob.ar (see `scripts/01_fetch_fx_rate.py`) |
 
-# 
+## Business Logic
 
-# 1\. \*\*Tracking fundraising performance against a USD-denominated target\*\*, when donations arrive at different stages (\*committed → recognized → accrued\*) and only \*recognized + accrued\* should count toward the goal.
+- **Target measure** = `recognized + accrued` donations (in USD). Committed donations are pipeline only.
+- **`arancel_usd` (scholarship cost) is a divisor**, never summed across scholarships — it's used to compute averages or "how many scholarships does this donation fund," not as an additive total.
+- 7 scholarship product types are tracked separately.
+- Fiscal year ("Ejercicio") runs March–February, not calendar year.
 
-# 2\. \*\*Understanding the real purchasing power of donations over time\*\*, since local currency depreciation can erode the value of pledges made months earlier.
+## Project Structure
 
-# 
+```
+scholarship-fundraising-dashboard/
+├── README.md
+├── data/                          ← generated CSVs (synthetic + real FX data)
+├── scripts/
+│   ├── 01_fetch_fx_rate.py        ← pulls real USD/ARS data (run locally)
+│   └── 02_generate_scholarship_data.py  ← generates synthetic donor/scholarship data
+├── sql/
+│   ├── schema.sql                 ← table definitions
+│   └── analysis_queries.sql       ← KPI and analysis queries
+└── powerbi/
+    ├── dax_measures.md            ← DAX measures + suggested visuals
+    ├── theme.json                 ← Power BI color theme
+    ├── dashboard-screenshot.png   ← final dashboard preview
+    └── scholarship-dashboard.pbix ← Power BI file
+```
 
-# This project builds a dashboard that answers both.
+## How to Reproduce
 
-# 
+1. Run `scripts/01_fetch_fx_rate.py` locally to pull the real exchange rate series.
+2. Run `scripts/02_generate_scholarship_data.py` to generate the synthetic donation/scholarship data.
+3. Load all CSVs into a SQLite database using `sql/schema.sql`.
+4. Run the queries in `sql/analysis_queries.sql` to validate the business logic.
+5. Connect Power BI to the database (or the CSVs directly) and build the measures in `powerbi/dax_measures.md`.
 
-# \## Data Sources
+## Dashboard Preview
 
-# 
+![Dashboard preview](powerbi/dashboard-screenshot.png)
 
-# | Source | Type | Description |
+## Key Insights
 
-# |---|---|---|
+- **The 2024-2025 fiscal year exceeded its target by 18%** (USD 589K recognized+accrued vs. a USD 500K goal), with fundraising peaks in September and December — suggesting year-end and Q3-close campaigns are the most effective touchpoints for this program.
+- **"Research Scholarship" is the leading product type by volume** (19 scholarships), closely followed by "Sports Scholarship" and "Named Scholarship" (18 each), while "Corporate Agreement Scholarship" trails behind — useful signal for where to focus future fundraising efforts to balance the product mix.
+- **The Agribusiness sector dominates the top-donor ranking**, with several companies from that sector among the top 5 contributors — highlighting a potential concentration risk, since a large share of funding depends on a single economic sector.
+- **The official exchange rate more than quadrupled between 2020 and 2025**, with a slight correction by 2026 — reinforcing why the program denominates its targets in USD: a peso-denominated 2020 target would be worth a fraction of its original value today.
 
-# | `donantes.csv`, `donaciones.csv`, `becas.csv` | Synthetic | Generated with realistic business logic (see `scripts/02\\\_generate\\\_scholarship\\\_data.py`) |
+*(Note: donor/scholarship figures come from the synthetic dataset described above; the exchange rate trend is based on real public data.)*
 
-# | `tipo\\\_cambio\\\_oficial.csv` | Real, public | Official USD/ARS exchange rate, BCRA via datos.gob.ar (see `scripts/01\\\_fetch\\\_fx\\\_rate.py`) |
+## Tools
 
-# 
-
-# \## Business Logic
-
-# 
-
-# \- \*\*Target measure\*\* = `recognized + accrued` donations (in USD). Committed donations are pipeline only.
-
-# \- \*\*`arancel\\\_usd` (scholarship cost) is a divisor\*\*, never summed across scholarships — it's used to compute averages or "how many scholarships does this donation fund," not as an additive total.
-
-# \- 7 scholarship product types are tracked separately.
-
-# \- Fiscal year ("Ejercicio") runs March–February, not calendar year.
-
-# 
-
-# \## Project Structure
-
-# 
-
-# ```
-
-# scholarship-fundraising-dashboard/
-
-# ├── README.md
-
-# ├── data/                          ← generated CSVs (synthetic + real FX data)
-
-# ├── scripts/
-
-# │   ├── 01\_fetch\_fx\_rate.py        ← pulls real USD/ARS data (run locally)
-
-# │   └── 02\_generate\_scholarship\_data.py  ← generates synthetic donor/scholarship data
-
-# ├── sql/
-
-# │   ├── schema.sql                 ← table definitions
-
-# │   └── analysis\_queries.sql       ← KPI and analysis queries
-
-# └── powerbi/
-
-# &#x20;   └── dax\_measures.md            ← DAX measures + suggested visuals
-
-# ```
-
-# 
-
-# \## How to Reproduce
-
-# 
-
-# 1\. Run `scripts/01\\\_fetch\\\_fx\\\_rate.py` locally to pull the real exchange rate series.
-
-# 2\. Run `scripts/02\\\_generate\\\_scholarship\\\_data.py` to generate the synthetic donation/scholarship data.
-
-# 3\. Load all CSVs into a SQLite database using `sql/schema.sql`.
-
-# 4\. Run the queries in `sql/analysis\\\_queries.sql` to validate the business logic.
-
-# 5\. Connect Power BI to the database (or the CSVs directly) and build the measures in `powerbi/dax\\\_measures.md`.
-
-# 
-
-# \## Key Insights
-
-# 
-
-# \- \*\*The 2024-2025 fiscal year exceeded its target by 18%\*\* (USD 589K recognized+accrued vs. a USD 500K goal), with fundraising peaks in September and December — suggesting year-end and Q3-close campaigns are the most effective touchpoints for this program.
-
-# \- \*\*"Research Scholarship" is the leading product type by volume\*\* (19 scholarships), closely followed by "Sports Scholarship" and "Named Scholarship" (18 each), while "Corporate Agreement Scholarship" trails behind — useful signal for where to focus future fundraising efforts to balance the product mix.
-
-# \- \*\*The Agribusiness sector dominates the top-donor ranking\*\*, with several companies from that sector among the top 5 contributors — highlighting a potential concentration risk, since a large share of funding depends on a single economic sector.
-
-# \- \*\*The official exchange rate more than quadrupled between 2020 and 2025\*\*, with a slight correction by 2026 — reinforcing why the program denominates its targets in USD: a peso-denominated 2020 target would be worth a fraction of its original value today.
-
-# 
-
-# \*(Note: donor/scholarship figures come from the synthetic dataset described above; the exchange rate trend is based on real public data.)\*
-
-# 
-
-# \## Tools
-
-# 
-
-# Python (pandas, requests) · SQL (SQLite) · Power BI (DAX, Power Query)
-
+Python (pandas, requests) · SQL (SQLite) · Power BI (DAX, Power Query)
