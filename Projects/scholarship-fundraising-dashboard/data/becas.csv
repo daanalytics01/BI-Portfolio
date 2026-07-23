@@ -1,0 +1,190 @@
+beca_id,donacion_id,tipo_producto,arancel_usd,ejercicio
+1,1,Beca Mérito Académico,5487.62,Ejercicio 2024-2025
+2,1,Beca Mérito Académico,4090.52,Ejercicio 2024-2025
+3,2,Beca Investigación,4633.59,Ejercicio 2024-2025
+4,2,Beca Investigación,3724.7,Ejercicio 2024-2025
+5,2,Beca Investigación,2597.93,Ejercicio 2024-2025
+6,3,Beca Deportiva,4594.3,Ejercicio 2024-2025
+7,3,Beca Deportiva,5516.97,Ejercicio 2024-2025
+8,3,Beca Deportiva,5371.98,Ejercicio 2024-2025
+9,4,Beca Necesidad Económica,5002.89,Ejercicio 2024-2025
+10,5,Beca Necesidad Económica,2291.49,Ejercicio 2024-2025
+11,6,Beca Nominada,3830.81,Ejercicio 2024-2025
+12,6,Beca Nominada,1725.98,Ejercicio 2024-2025
+13,6,Beca Nominada,2621.39,Ejercicio 2024-2025
+14,7,Beca Comunidad,3554.08,Ejercicio 2024-2025
+15,8,Beca Nominada,4504.1,Ejercicio 2024-2025
+16,8,Beca Nominada,5945.52,Ejercicio 2024-2025
+17,9,Beca Comunidad,2927.84,Ejercicio 2024-2025
+18,9,Beca Comunidad,4898.63,Ejercicio 2024-2025
+19,9,Beca Comunidad,3491.58,Ejercicio 2024-2025
+20,10,Beca Necesidad Económica,5514.09,Ejercicio 2024-2025
+21,10,Beca Necesidad Económica,3420.33,Ejercicio 2024-2025
+22,10,Beca Necesidad Económica,5580.85,Ejercicio 2024-2025
+23,11,Beca Deportiva,5537.44,Ejercicio 2024-2025
+24,11,Beca Deportiva,4846.45,Ejercicio 2024-2025
+25,12,Beca Deportiva,3525.31,Ejercicio 2024-2025
+26,12,Beca Deportiva,4883.0,Ejercicio 2024-2025
+27,13,Beca Deportiva,2747.9,Ejercicio 2024-2025
+28,13,Beca Deportiva,4999.54,Ejercicio 2024-2025
+29,13,Beca Deportiva,3680.69,Ejercicio 2024-2025
+30,14,Beca Nominada,2735.69,Ejercicio 2024-2025
+31,15,Beca Necesidad Económica,4710.95,Ejercicio 2024-2025
+32,16,Beca Deportiva,2722.72,Ejercicio 2024-2025
+33,17,Beca Deportiva,5518.62,Ejercicio 2024-2025
+34,17,Beca Deportiva,1862.6,Ejercicio 2024-2025
+35,18,Beca Investigación,2540.68,Ejercicio 2024-2025
+36,19,Beca Nominada,2187.62,Ejercicio 2024-2025
+37,19,Beca Nominada,2462.79,Ejercicio 2024-2025
+38,19,Beca Nominada,3366.91,Ejercicio 2024-2025
+39,20,Beca Comunidad,3941.75,Ejercicio 2024-2025
+40,20,Beca Comunidad,3370.98,Ejercicio 2024-2025
+41,21,Beca Investigación,5248.01,Ejercicio 2024-2025
+42,22,Beca Nominada,5571.77,Ejercicio 2024-2025
+43,22,Beca Nominada,4128.36,Ejercicio 2024-2025
+44,23,Beca Comunidad,1587.89,Ejercicio 2024-2025
+45,23,Beca Comunidad,5462.96,Ejercicio 2024-2025
+46,23,Beca Comunidad,4090.61,Ejercicio 2024-2025
+47,24,Beca Mérito Académico,1526.53,Ejercicio 2024-2025
+48,24,Beca Mérito Académico,3082.91,Ejercicio 2024-2025
+49,25,Beca Investigación,5340.52,Ejercicio 2024-2025
+50,25,Beca Investigación,5790.44,Ejercicio 2024-2025
+51,26,Beca Investigación,3921.99,Ejercicio 2024-2025
+52,26,Beca Investigación,4805.85,Ejercicio 2024-2025
+53,27,Beca Comunidad,5540.15,Ejercicio 2024-2025
+54,27,Beca Comunidad,3697.03,Ejercicio 2024-2025
+55,27,Beca Comunidad,2728.21,Ejercicio 2024-2025
+56,28,Beca Nominada,1630.61,Ejercicio 2024-2025
+57,28,Beca Nominada,3012.58,Ejercicio 2024-2025
+58,29,Beca Investigación,5091.64,Ejercicio 2024-2025
+59,29,Beca Investigación,4758.82,Ejercicio 2024-2025
+60,29,Beca Investigación,5282.28,Ejercicio 2024-2025
+61,30,Beca Comunidad,5913.25,Ejercicio 2024-2025
+62,31,Beca Investigación,1621.35,Ejercicio 2024-2025
+63,31,Beca Investigación,3273.09,Ejercicio 2024-2025
+64,31,Beca Investigación,4039.76,Ejercicio 2024-2025
+65,32,Beca Investigación,1877.76,Ejercicio 2024-2025
+66,33,Beca Deportiva,2110.65,Ejercicio 2024-2025
+67,33,Beca Deportiva,3577.64,Ejercicio 2024-2025
+68,34,Beca Mérito Académico,2670.7,Ejercicio 2024-2025
+69,35,Beca Mérito Académico,2452.47,Ejercicio 2024-2025
+70,35,Beca Mérito Académico,2970.81,Ejercicio 2024-2025
+71,36,Beca Nominada,2752.15,Ejercicio 2024-2025
+72,36,Beca Nominada,5780.42,Ejercicio 2024-2025
+73,37,Beca Mérito Académico,2635.22,Ejercicio 2024-2025
+74,37,Beca Mérito Académico,1868.58,Ejercicio 2024-2025
+75,38,Beca Investigación,4870.61,Ejercicio 2024-2025
+76,39,Beca Convenio Corporativo,5999.59,Ejercicio 2024-2025
+77,40,Beca Convenio Corporativo,2509.0,Ejercicio 2024-2025
+78,40,Beca Convenio Corporativo,1808.78,Ejercicio 2024-2025
+79,41,Beca Deportiva,1681.16,Ejercicio 2024-2025
+80,41,Beca Deportiva,1639.63,Ejercicio 2024-2025
+81,41,Beca Deportiva,2612.77,Ejercicio 2024-2025
+82,42,Beca Comunidad,4296.01,Ejercicio 2024-2025
+83,43,Beca Convenio Corporativo,2067.99,Ejercicio 2024-2025
+84,44,Beca Nominada,2014.75,Ejercicio 2024-2025
+85,44,Beca Nominada,5764.91,Ejercicio 2024-2025
+86,44,Beca Nominada,3592.65,Ejercicio 2024-2025
+87,45,Beca Investigación,4951.04,Ejercicio 2024-2025
+88,45,Beca Investigación,2255.05,Ejercicio 2024-2025
+89,46,Beca Convenio Corporativo,5836.81,Ejercicio 2025-2026
+90,46,Beca Convenio Corporativo,4732.61,Ejercicio 2025-2026
+91,46,Beca Convenio Corporativo,5000.06,Ejercicio 2025-2026
+92,47,Beca Nominada,5841.24,Ejercicio 2025-2026
+93,48,Beca Deportiva,4104.08,Ejercicio 2025-2026
+94,49,Beca Mérito Académico,4091.09,Ejercicio 2025-2026
+95,49,Beca Mérito Académico,5586.12,Ejercicio 2025-2026
+96,50,Beca Investigación,3284.94,Ejercicio 2025-2026
+97,50,Beca Investigación,4717.57,Ejercicio 2025-2026
+98,51,Beca Convenio Corporativo,4164.44,Ejercicio 2025-2026
+99,52,Beca Nominada,2592.82,Ejercicio 2025-2026
+100,52,Beca Nominada,4637.37,Ejercicio 2025-2026
+101,52,Beca Nominada,2857.12,Ejercicio 2025-2026
+102,53,Beca Comunidad,4201.85,Ejercicio 2025-2026
+103,53,Beca Comunidad,2044.75,Ejercicio 2025-2026
+104,53,Beca Comunidad,5927.3,Ejercicio 2025-2026
+105,54,Beca Investigación,3062.42,Ejercicio 2025-2026
+106,55,Beca Investigación,4476.85,Ejercicio 2025-2026
+107,55,Beca Investigación,1810.31,Ejercicio 2025-2026
+108,56,Beca Necesidad Económica,3035.54,Ejercicio 2025-2026
+109,56,Beca Necesidad Económica,5323.09,Ejercicio 2025-2026
+110,56,Beca Necesidad Económica,5200.49,Ejercicio 2025-2026
+111,57,Beca Necesidad Económica,3450.86,Ejercicio 2025-2026
+112,58,Beca Investigación,4360.13,Ejercicio 2025-2026
+113,58,Beca Investigación,5229.18,Ejercicio 2025-2026
+114,59,Beca Necesidad Económica,2188.46,Ejercicio 2025-2026
+115,59,Beca Necesidad Económica,2292.62,Ejercicio 2025-2026
+116,59,Beca Necesidad Económica,3847.86,Ejercicio 2025-2026
+117,60,Beca Mérito Académico,2715.37,Ejercicio 2025-2026
+118,60,Beca Mérito Académico,5136.9,Ejercicio 2025-2026
+119,60,Beca Mérito Académico,3921.78,Ejercicio 2025-2026
+120,61,Beca Comunidad,3591.93,Ejercicio 2025-2026
+121,61,Beca Comunidad,5215.81,Ejercicio 2025-2026
+122,62,Beca Necesidad Económica,2707.78,Ejercicio 2025-2026
+123,62,Beca Necesidad Económica,5332.71,Ejercicio 2025-2026
+124,62,Beca Necesidad Económica,5238.29,Ejercicio 2025-2026
+125,63,Beca Nominada,2755.18,Ejercicio 2025-2026
+126,64,Beca Deportiva,2597.39,Ejercicio 2025-2026
+127,64,Beca Deportiva,3591.19,Ejercicio 2025-2026
+128,65,Beca Comunidad,4506.85,Ejercicio 2025-2026
+129,65,Beca Comunidad,3013.78,Ejercicio 2025-2026
+130,65,Beca Comunidad,3724.38,Ejercicio 2025-2026
+131,66,Beca Nominada,2318.28,Ejercicio 2025-2026
+132,66,Beca Nominada,2454.54,Ejercicio 2025-2026
+133,67,Beca Investigación,3031.52,Ejercicio 2025-2026
+134,67,Beca Investigación,5461.44,Ejercicio 2025-2026
+135,68,Beca Deportiva,5460.48,Ejercicio 2025-2026
+136,68,Beca Deportiva,4001.06,Ejercicio 2025-2026
+137,68,Beca Deportiva,3824.82,Ejercicio 2025-2026
+138,69,Beca Investigación,1885.26,Ejercicio 2025-2026
+139,70,Beca Comunidad,3328.93,Ejercicio 2025-2026
+140,70,Beca Comunidad,3998.29,Ejercicio 2025-2026
+141,70,Beca Comunidad,2581.46,Ejercicio 2025-2026
+142,71,Beca Mérito Académico,4406.56,Ejercicio 2025-2026
+143,71,Beca Mérito Académico,3708.7,Ejercicio 2025-2026
+144,72,Beca Comunidad,1918.74,Ejercicio 2025-2026
+145,73,Beca Mérito Académico,3319.81,Ejercicio 2025-2026
+146,74,Beca Deportiva,2877.93,Ejercicio 2025-2026
+147,75,Beca Deportiva,3160.59,Ejercicio 2025-2026
+148,75,Beca Deportiva,3990.63,Ejercicio 2025-2026
+149,75,Beca Deportiva,3046.91,Ejercicio 2025-2026
+150,76,Beca Comunidad,3976.75,Ejercicio 2025-2026
+151,76,Beca Comunidad,3083.15,Ejercicio 2025-2026
+152,76,Beca Comunidad,3541.85,Ejercicio 2025-2026
+153,77,Beca Comunidad,2631.32,Ejercicio 2025-2026
+154,77,Beca Comunidad,2042.95,Ejercicio 2025-2026
+155,78,Beca Necesidad Económica,2919.97,Ejercicio 2025-2026
+156,79,Beca Deportiva,3911.39,Ejercicio 2025-2026
+157,79,Beca Deportiva,4929.85,Ejercicio 2025-2026
+158,79,Beca Deportiva,2333.17,Ejercicio 2025-2026
+159,80,Beca Necesidad Económica,4823.72,Ejercicio 2025-2026
+160,81,Beca Convenio Corporativo,4760.63,Ejercicio 2025-2026
+161,81,Beca Convenio Corporativo,5894.73,Ejercicio 2025-2026
+162,82,Beca Investigación,4185.56,Ejercicio 2025-2026
+163,82,Beca Investigación,5912.3,Ejercicio 2025-2026
+164,82,Beca Investigación,5246.83,Ejercicio 2025-2026
+165,83,Beca Deportiva,2523.67,Ejercicio 2025-2026
+166,83,Beca Deportiva,2307.49,Ejercicio 2025-2026
+167,84,Beca Deportiva,4686.08,Ejercicio 2025-2026
+168,85,Beca Deportiva,2734.4,Ejercicio 2025-2026
+169,86,Beca Deportiva,3990.12,Ejercicio 2025-2026
+170,87,Beca Necesidad Económica,5748.4,Ejercicio 2025-2026
+171,87,Beca Necesidad Económica,4370.41,Ejercicio 2025-2026
+172,87,Beca Necesidad Económica,4887.56,Ejercicio 2025-2026
+173,88,Beca Convenio Corporativo,5427.24,Ejercicio 2025-2026
+174,89,Beca Mérito Académico,2779.53,Ejercicio 2025-2026
+175,89,Beca Mérito Académico,3654.21,Ejercicio 2025-2026
+176,89,Beca Mérito Académico,3033.18,Ejercicio 2025-2026
+177,90,Beca Nominada,2636.15,Ejercicio 2025-2026
+178,91,Beca Investigación,2013.39,Ejercicio 2025-2026
+179,91,Beca Investigación,1794.05,Ejercicio 2025-2026
+180,92,Beca Investigación,1833.37,Ejercicio 2025-2026
+181,92,Beca Investigación,4332.51,Ejercicio 2025-2026
+182,93,Beca Investigación,2182.77,Ejercicio 2025-2026
+183,94,Beca Comunidad,5771.07,Ejercicio 2025-2026
+184,94,Beca Comunidad,1883.31,Ejercicio 2025-2026
+185,94,Beca Comunidad,2616.86,Ejercicio 2025-2026
+186,95,Beca Mérito Académico,4940.0,Ejercicio 2025-2026
+187,95,Beca Mérito Académico,4228.43,Ejercicio 2025-2026
+188,95,Beca Mérito Académico,5058.33,Ejercicio 2025-2026
+189,96,Beca Comunidad,4990.62,Ejercicio 2025-2026

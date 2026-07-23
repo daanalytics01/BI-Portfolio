@@ -1,0 +1,43 @@
+{
+  "name": "Scholarship Fundraising Theme",
+  "dataColors": [
+    "#2E5C88",
+    "#5B9BD5",
+    "#8FBADC",
+    "#1F3A5F",
+    "#F2A65A",
+    "#7A9E7E",
+    "#C1666B"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2B2B2B",
+  "tableAccent": "#2E5C88",
+  "good": "#7A9E7E",
+  "neutral": "#F2A65A",
+  "bad": "#C1666B",
+  "textClasses": {
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1F3A5F"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#2B2B2B"
+    },
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2E5C88"
+    }
+  },
+  "visualStyles": {
+    "card": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F7F9FB" } } }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DCE3EA" } }, "radius": 8 }]
+      }
+    }
+  }
+}

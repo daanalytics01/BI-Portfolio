@@ -1,0 +1,97 @@
+donacion_id,donante_id,fecha,ejercicio,monto_usd,tipo_producto,estado
+1,17,2024-03-20,Ejercicio 2024-2025,2610.33,Beca Mérito Académico,devengado
+2,18,2024-03-14,Ejercicio 2024-2025,7070.13,Beca Investigación,devengado
+3,1,2024-03-25,Ejercicio 2024-2025,20533.84,Beca Deportiva,devengado
+4,5,2024-04-07,Ejercicio 2024-2025,24015.9,Beca Necesidad Económica,reconocido
+5,13,2024-04-04,Ejercicio 2024-2025,10256.53,Beca Necesidad Económica,devengado
+6,2,2024-04-24,Ejercicio 2024-2025,12566.77,Beca Nominada,devengado
+7,13,2024-04-03,Ejercicio 2024-2025,14696.93,Beca Comunidad,devengado
+8,19,2024-05-07,Ejercicio 2024-2025,18205.15,Beca Nominada,devengado
+9,10,2024-05-03,Ejercicio 2024-2025,21672.31,Beca Comunidad,reconocido
+10,9,2024-05-15,Ejercicio 2024-2025,16620.74,Beca Necesidad Económica,reconocido
+11,12,2024-05-07,Ejercicio 2024-2025,17414.03,Beca Deportiva,devengado
+12,20,2024-06-21,Ejercicio 2024-2025,5936.19,Beca Deportiva,devengado
+13,15,2024-06-13,Ejercicio 2024-2025,8208.8,Beca Deportiva,devengado
+14,11,2024-07-27,Ejercicio 2024-2025,19671.21,Beca Nominada,devengado
+15,2,2024-07-26,Ejercicio 2024-2025,9255.42,Beca Necesidad Económica,reconocido
+16,19,2024-07-23,Ejercicio 2024-2025,9237.59,Beca Deportiva,devengado
+17,5,2024-08-09,Ejercicio 2024-2025,5211.5,Beca Deportiva,devengado
+18,9,2024-08-24,Ejercicio 2024-2025,15445.48,Beca Investigación,devengado
+19,8,2024-08-05,Ejercicio 2024-2025,13719.1,Beca Nominada,devengado
+20,4,2024-08-05,Ejercicio 2024-2025,16431.26,Beca Comunidad,devengado
+21,20,2024-08-03,Ejercicio 2024-2025,10849.65,Beca Investigación,devengado
+22,9,2024-09-18,Ejercicio 2024-2025,21797.93,Beca Nominada,devengado
+23,4,2024-09-22,Ejercicio 2024-2025,22350.13,Beca Comunidad,devengado
+24,11,2024-09-04,Ejercicio 2024-2025,8750.5,Beca Mérito Académico,devengado
+25,9,2024-09-17,Ejercicio 2024-2025,19525.13,Beca Investigación,devengado
+26,10,2024-09-27,Ejercicio 2024-2025,16695.84,Beca Investigación,reconocido
+27,12,2024-09-25,Ejercicio 2024-2025,5715.63,Beca Comunidad,devengado
+28,20,2024-10-11,Ejercicio 2024-2025,13237.93,Beca Nominada,devengado
+29,10,2024-10-08,Ejercicio 2024-2025,3332.28,Beca Investigación,devengado
+30,16,2024-11-27,Ejercicio 2024-2025,3591.89,Beca Comunidad,devengado
+31,5,2024-11-05,Ejercicio 2024-2025,17174.27,Beca Investigación,reconocido
+32,20,2024-12-14,Ejercicio 2024-2025,24180.35,Beca Investigación,devengado
+33,7,2024-12-23,Ejercicio 2024-2025,9169.47,Beca Deportiva,devengado
+34,15,2024-12-17,Ejercicio 2024-2025,12384.18,Beca Mérito Académico,devengado
+35,11,2024-12-01,Ejercicio 2024-2025,15531.1,Beca Mérito Académico,devengado
+36,1,2024-12-03,Ejercicio 2024-2025,18280.34,Beca Nominada,devengado
+37,2,2024-12-11,Ejercicio 2024-2025,3629.72,Beca Mérito Académico,devengado
+38,7,2025-01-18,Ejercicio 2024-2025,5043.17,Beca Investigación,devengado
+39,8,2025-01-26,Ejercicio 2024-2025,12878.38,Beca Convenio Corporativo,reconocido
+40,4,2025-01-22,Ejercicio 2024-2025,11914.18,Beca Convenio Corporativo,devengado
+41,2,2025-01-22,Ejercicio 2024-2025,17029.48,Beca Deportiva,reconocido
+42,13,2025-01-24,Ejercicio 2024-2025,9803.96,Beca Comunidad,reconocido
+43,7,2025-02-18,Ejercicio 2024-2025,12318.11,Beca Convenio Corporativo,reconocido
+44,15,2025-02-08,Ejercicio 2024-2025,22113.18,Beca Nominada,devengado
+45,18,2025-02-04,Ejercicio 2024-2025,3163.53,Beca Investigación,devengado
+46,8,2025-03-06,Ejercicio 2025-2026,11347.52,Beca Convenio Corporativo,devengado
+47,13,2025-03-02,Ejercicio 2025-2026,5786.65,Beca Nominada,devengado
+48,15,2025-04-10,Ejercicio 2025-2026,11729.17,Beca Deportiva,devengado
+49,18,2025-04-22,Ejercicio 2025-2026,18523.39,Beca Mérito Académico,reconocido
+50,7,2025-04-02,Ejercicio 2025-2026,15321.15,Beca Investigación,reconocido
+51,11,2025-04-02,Ejercicio 2025-2026,3153.27,Beca Convenio Corporativo,devengado
+52,6,2025-05-02,Ejercicio 2025-2026,24097.91,Beca Nominada,devengado
+53,3,2025-05-20,Ejercicio 2025-2026,3563.1,Beca Comunidad,reconocido
+54,4,2025-05-19,Ejercicio 2025-2026,7662.95,Beca Investigación,comprometido
+55,3,2025-05-14,Ejercicio 2025-2026,17119.58,Beca Investigación,devengado
+56,9,2025-05-07,Ejercicio 2025-2026,17403.7,Beca Necesidad Económica,reconocido
+57,13,2025-05-05,Ejercicio 2025-2026,17448.88,Beca Necesidad Económica,reconocido
+58,1,2025-06-15,Ejercicio 2025-2026,16286.66,Beca Investigación,devengado
+59,3,2025-06-18,Ejercicio 2025-2026,6902.55,Beca Necesidad Económica,comprometido
+60,3,2025-07-08,Ejercicio 2025-2026,10499.12,Beca Mérito Académico,reconocido
+61,18,2025-07-23,Ejercicio 2025-2026,8957.89,Beca Comunidad,devengado
+62,1,2025-07-22,Ejercicio 2025-2026,20793.4,Beca Necesidad Económica,devengado
+63,4,2025-07-05,Ejercicio 2025-2026,8082.72,Beca Nominada,devengado
+64,9,2025-08-10,Ejercicio 2025-2026,15911.09,Beca Deportiva,reconocido
+65,9,2025-08-17,Ejercicio 2025-2026,13236.23,Beca Comunidad,comprometido
+66,14,2025-08-27,Ejercicio 2025-2026,8363.65,Beca Nominada,reconocido
+67,9,2025-09-06,Ejercicio 2025-2026,19048.31,Beca Investigación,devengado
+68,18,2025-09-01,Ejercicio 2025-2026,4573.1,Beca Deportiva,devengado
+69,18,2025-09-02,Ejercicio 2025-2026,21195.69,Beca Investigación,devengado
+70,5,2025-10-02,Ejercicio 2025-2026,9089.94,Beca Comunidad,devengado
+71,2,2025-10-12,Ejercicio 2025-2026,6831.76,Beca Mérito Académico,devengado
+72,12,2025-10-25,Ejercicio 2025-2026,14877.32,Beca Comunidad,reconocido
+73,20,2025-10-24,Ejercicio 2025-2026,5554.73,Beca Mérito Académico,devengado
+74,6,2025-10-14,Ejercicio 2025-2026,2570.09,Beca Deportiva,devengado
+75,8,2025-11-09,Ejercicio 2025-2026,5661.55,Beca Deportiva,comprometido
+76,2,2025-11-16,Ejercicio 2025-2026,7115.98,Beca Comunidad,devengado
+77,12,2025-11-10,Ejercicio 2025-2026,20872.34,Beca Comunidad,comprometido
+78,1,2025-11-22,Ejercicio 2025-2026,6441.99,Beca Necesidad Económica,comprometido
+79,3,2025-11-25,Ejercicio 2025-2026,8419.87,Beca Deportiva,reconocido
+80,11,2025-12-01,Ejercicio 2025-2026,4652.86,Beca Necesidad Económica,comprometido
+81,9,2025-12-02,Ejercicio 2025-2026,4493.26,Beca Convenio Corporativo,comprometido
+82,11,2025-12-14,Ejercicio 2025-2026,15942.8,Beca Investigación,comprometido
+83,19,2025-12-07,Ejercicio 2025-2026,7858.62,Beca Deportiva,comprometido
+84,17,2025-12-26,Ejercicio 2025-2026,14384.4,Beca Deportiva,devengado
+85,7,2025-12-12,Ejercicio 2025-2026,11919.84,Beca Deportiva,devengado
+86,11,2026-01-22,Ejercicio 2025-2026,21504.35,Beca Deportiva,devengado
+87,17,2026-01-10,Ejercicio 2025-2026,17338.54,Beca Necesidad Económica,comprometido
+88,10,2026-01-18,Ejercicio 2025-2026,4927.62,Beca Convenio Corporativo,reconocido
+89,13,2026-01-22,Ejercicio 2025-2026,19207.09,Beca Mérito Académico,reconocido
+90,10,2026-01-13,Ejercicio 2025-2026,14602.56,Beca Nominada,comprometido
+91,7,2026-01-14,Ejercicio 2025-2026,20072.45,Beca Investigación,reconocido
+92,15,2026-02-15,Ejercicio 2025-2026,17539.43,Beca Investigación,comprometido
+93,6,2026-02-22,Ejercicio 2025-2026,3950.3,Beca Investigación,reconocido
+94,20,2026-02-11,Ejercicio 2025-2026,4147.91,Beca Comunidad,comprometido
+95,10,2026-02-08,Ejercicio 2025-2026,20550.95,Beca Mérito Académico,comprometido
+96,8,2026-02-16,Ejercicio 2025-2026,16059.3,Beca Comunidad,comprometido
