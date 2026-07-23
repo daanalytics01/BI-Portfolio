@@ -1,38 +1,32 @@
 # 👋 Hi, I'm Débora Aranda
 
-Business Intelligence Analyst with experience in Power BI, Excel, SQL, data modeling, and analytics.
-
-I specialize in transforming raw data into actionable insights that support strategic decision-making.
-
-## Skills
-
-- Power BI
-- DAX
-- Power Query
-- SQL
-- Excel
-- Data Modeling
-- ETL
-- KPI Design
-- Dashboard Development
-
-## Featured Projects
-
-| Project | Description | Tools |
-|---------|-------------|------|
-| 🎓 Fundraising Analytics | Donation tracking and fundraising KPIs | Power BI |
-| 📈 Sales Dashboard | Sales performance analysis | Power BI + Excel |
-| 👥 HR Analytics | Workforce metrics and visualization | Power BI |
-| 💰 Financial Dashboard | Budget and financial performance | Power BI |
-
----
+Data Analyst in transition, with 20+ years of experience in fundraising operations, financial management, and process design for social-impact and higher-education organizations. Currently deepening my skills in Power BI, SQL, and Python to bring data-driven decision-making to the nonprofit and education sectors.
 
 ## About Me
 
-I have extensive experience designing dashboards and business reports for fundraising, higher education, and business management.
+I've spent two decades designing financial models, managing donor relationships, and building dashboards and reporting systems for university fundraising and scholarship programs. Along the way I became the go-to person for turning messy spreadsheets into tools that non-technical teams can actually use — which is what pulled me toward data analytics as a career path.
 
-My goal is to create intuitive dashboards that help organizations make better decisions based on data.
+I currently work in Development Relations at a leading university in Argentina, where I manage corporate partnerships, structure legal/financial agreements, and build the reporting infrastructure behind the institution's scholarship program.
+
+## Skills
+
+**BI & Data:** Power BI · DAX · Power Query · SQL · Python (basic) · Excel/Google Sheets (advanced) · Looker Studio  
+**Business Systems:** Salesforce · SAP · Google Apps Script (CRM & automation)  
+**Domain Expertise:** Financial modeling & projections · Fundraising analytics · Nonprofit/education finance · Process design
+
+## Featured Projects
+
+*Building out this section — first case study coming soon: a scholarship fundraising dashboard rebuilt with public data, covering the full pipeline from raw data to KPI design.*
+
+| Status | Project | Description | Tools |
+|---|---|---|---|
+| 🔜 | Scholarship Fundraising Dashboard | End-to-end BI project: KPI design, data modeling, and DAX for tracking fundraising against targets | Power BI, DAX |
+| 🔜 | TBD | TBD | SQL, Python |
+
+## Let's Connect
+
+📍 Buenos Aires, Argentina  
+💼 [LinkedIn](https://www.linkedin.com/in/debora-aranda/)
 
 ---
-
-⭐ More projects coming soon.
+⭐ Actively building — check back for updates.
